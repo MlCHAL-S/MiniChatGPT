@@ -32,7 +32,7 @@ jobs:
 
       - name: Run Tests
         run: |
-          pytest --cov=web --cov-report=term-missing
+          pytest --cov=web
 
   build-and-push:
     name: Build and Push Docker Images
