@@ -1,5 +1,8 @@
 # MiniChatGPT
 
+[![CI/CD](https://github.com/MlCHAL-S/MiniChatGPT/actions/workflows/ci.yml/badge.svg)](https://github.com/MlCHAL-S/MiniChatGPT/actions/workflows/ci.yml)
+[![Python Version](https://img.shields.io/badge/python-3.12%2B-blue)](https://www.python.org/)
+
 MiniChatGPT is a simple chatbot application built with Flask and Ollama, designed to simulate a chat interface similar to ChatGPT. The application includes a web interface for user interaction and a backend API to handle chat messages.
 
 ---
