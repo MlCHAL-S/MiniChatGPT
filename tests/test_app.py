@@ -10,11 +10,11 @@ def client():
         yield client
 
 
-# def test_index(client):
-#     """Test the root endpoint."""
-#     response = client.get("/")
-#     assert response.status_code == 200
-#     assert b"<html" in response.data  # Check if HTML content is returned
+def test_index(client):
+    """Test the root endpoint."""
+    response = client.get("/")
+    assert response.status_code == 200
+    assert b"<html" in response.data  # Check if HTML content is returned
 
 
 def test_chat_success(client, requests_mock):
